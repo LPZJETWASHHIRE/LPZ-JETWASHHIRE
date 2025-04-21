@@ -1,174 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LPZ-JetWashHire</title>
-  <link href="https://fonts.googleapis.com/css2?family=Aptos+Mono&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Aptos Mono', monospace;
-      background-color: #5c0000; /* Dark red background */
-      color: #C0C0C0; /* Silver text */
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
       margin: 0;
       padding: 0;
     }
-
     header {
-      background-color: #5c0000;
-      color: #C0C0C0;
-      padding: 20px;
+      background: #333;
+      color: white;
       text-align: center;
-      position: relative;
+      padding: 1.5rem;
     }
-
-    header img {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      width: 80px;
-      height: auto;
+    .container {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #333;
+      margin-top: 2rem;
+    }
+    form {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
       border-radius: 5px;
     }
-
-    main {
-      padding: 20px;
-    }
-
-    section {
-      background-color: #3e0000;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #333;
-    }
-
-    h2 {
-      color: #C0C0C0;
-    }
-
-    form label {
-      display: block;
-      margin: 10px 0 5px;
-      color: #C0C0C0;
-    }
-
-    form input, form select, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border-radius: 8px;
+    button {
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background: #333;
+      color: white;
       border: none;
-      background-color: #220000;
-      color: #C0C0C0;
-    }
-
-    form button {
-      padding: 12px 24px;
-      background-color: #880000;
-      color: #C0C0C0;
-      border: none;
-      border-radius: 8px;
+      border-radius: 5px;
       cursor: pointer;
-      font-weight: bold;
     }
-
-    form button:hover {
-      background-color: #aa0000;
+    .prices, .contract {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
     }
-
-    footer {
-      background-color: #5c0000;
-      color: #C0C0C0;
-      text-align: center;
-      padding: 15px;
+    .contract pre {
+      white-space: pre-wrap;
+      font-family: inherit;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pressure_washer.jpg/320px-Pressure_washer.jpg" alt="Jetwash">
     <h1>LPZ-JetWashHire</h1>
     <p>Petrol Power Jetwash Hire for Bedfordshire and surrounding areas</p>
+    <p>We deliver, you jetwash, we collect</p>
+    <p>Contact: <a href="mailto:LPZ.JETWASH.HIRE@OUTLOOK.COM" style="color: #fff;">LPZ.JETWASH.HIRE@OUTLOOK.COM</a></p>
   </header>
+  <section>
+  <h2>Jetwash Features</h2>
+  <ul>
+    <li>• 6.5HP Four-Stroke Petrol Engine (unleaded)</li>
+    <li>• Max 2900psi Power for Serious Cleaning</li>
+    <li>• 8m Reinforced Hose for Maximum Reach</li>
+    <li>• 5 Spray Nozzles for Versatile Cleaning</li>
+    <li>• 3.6L Petrol Tank for Longer Use</li>
+    <li>• Low water usage – just 9.5 litres per minute (less than a garden hose!)</li>
+  </ul>
+</section>
 
-  <main>
-    <section>
-      <h2>Hire Rates</h2>
-      <p>1 Day Booking - £90 (Delivery 09:00 - Collection 16:00)</p>
-      <p>2 Day Booking - £165 (Delivery 09:00 on Day 1 - Collection 16:00 on Day 2)</p>
-      <p>Week Booking - £360 (Delivery 10:00 Mon - Collection Friday 16:00)</p>
-      <p>Weekend Only Hire Offer - £140 (Delivery 09:00 Sat - Collection 16:00 Sun)</p>
-      <p>All prices include VAT</p>
-      <p>Delivery fee of 87p per mile over 5 mile radius applies</p>
-      <p>April offer - 15% off total price with code <strong>EASTER</strong></p>
-    </section>
+<section>
+  <h2>What Can A Petrol Power Jetwash Clean and Sparkle?</h2>
+  <p>
+    Patios, Driveways, Pathways, BBQs, Cars, Motorbikes, Vans, HGVs, Coaches, Buses, Swimming Pools, Hot tubs, Tiles, Metal Structure Rust, Garage/House Doors and Windows, Dustbins, Cycles, Motorhomes, Caravans, Roadways, Drain Covers, Shipping Containers, Boats, Kayaks, Marine Equipment, Plant Equipment, Fairground Rides, Outdoor Furniture, Industrial Sites and Commercial Business Grounds, Skips, Outdoor Lights and Security Cameras, Solar Panels, Gates, Concrete Posts, Static Caravans, Water Slides, Children's Outdoor Park Equipment, Aviation Equipment, Light Aircraft and Gliders, Trailers, Gritters, Water Features and Pond Surrounds, Subways, Rail Network Equipment and Carriages, Garden Ornaments.
+  </p>
+</section>
 
-    <section>
+  <div class="container">
+    <div class="prices">
+      <h2>Hire Options</h2>
+      <ul>
+        <li><strong>1 Day Booking:</strong> £48 (Delivery 09:00 - Collection 16:00)</li>
+        <li><strong>Extra Day Booking:</strong> £24 (Delivery 09:00 on Day 1 - Collection 16:00 on Last Hire Day)</li>
+        <li><strong>Week Booking:</strong> £120 (Delivery 10:00 Mon - Collection 16:00 Fri)</li>
+        <li><strong>Weekend Only Offer:</strong> £65 (Delivery 09:00 Sat - Collection 16:00 Sun)</li>
+        <li>All prices exclude VAT - This will be added to your final quote</li>
+        <li>Delivery fee of £0.87/mile applies beyond 5-mile radius from MK44 3NA</li>
+        <li><strong>April Offer:</strong> 15% off total price with code <strong>EASTER</strong></li>
+      </ul>
+    </div>
+
+    <div class="contract">
       <h2>Hire Contract</h2>
-      <p>
-        I the hirer (name) agree to the terms and conditions of this contract of Hire with LPZ-JetWashHire. I the hirer accept full responsibility for the safe keeping and fair use of the jetwash during my term of hire delivery to collection. I accept liability and responsibility for any damage to the jetwash, parts and accessories during my hire term. I accept liability and responsibility for any damage caused to any other item whilst the jetwash is in my use or hire term and understand LPZ-JetWashHire cannot be legally or financially held accountable.
-        I am responsible for the Jetwash in its entirety in my hire term and this includes my decision to allow a 3rd person to use it during my hire term. This includes damage the 3rd person causes to the hire jetwash itself, attachments or other item or property or vehicle.
-        I am not entitled to further hire or subcontract the jetwash to any other party.
-        I understand that if any part of the hose is damaged I will pay the cost to replace this of £80 immediately and in full to the hire company LPZ-JetWashHire.
-        I understand that if any attachments that are supplied to me are lost, stolen or damaged I will pay the sum of £15 immediately and in full per item to LPZ-JetWashHire.
-        I accept responsibility to keep the jetwash stored in a safe location to prevent theft and if the jetwash is stolen or lost during my term of my contract, I am liable for the full cost of the jetwash and predicted financial loss to the business whilst a replacement is sourced. In this instance I will pay the sum of £1,000 immediately and in full to LPZ-JetWashHire.
-        Should I agree to this contract and fail to abide by it, I understand LPZ-JetWashHire have the right to instruct legal advice and proceed to a court hearing to recover finances. I accept the full cost of any legal or court fees LPZ-JetWashHire are invoiced to resolve this matter.
-        LPZ-JetWashHire maintain the right to cancel a booking at any time if there is reason to suppose a person or business is acting in a dishonest manner, operating with the intention of theft or any other illegal activity, does not intend to pay for the service or it is believed there is insufficient responsibility of the potential hirer to abide by the terms and conditions of this hire contract.
-        LPZ-JetWashHire can cancel a booking at any stage if they are made aware of a breach of contract without providing a refund or reason to the hirer.
-      </p>
-      <p>At the time of delivery I have inspected the JetWash with the hire company representative and note the following damage prior to my use: <em>"............................."</em></p>
-    </section>
+      <pre>
+HIRE CONTRACT
 
-    <section>
-      <h2>Booking Enquiry</h2>
-      <form action="https://formsubmit.co/LPZ.JETWASH.HIRE@OUTLOOK.COM" method="POST" enctype="multipart/form-data">
-        <input type="hidden" name="_subject" value="New Jetwash Hire Booking">
-        <input type="hidden" name="_autoresponse" value="Thanks for your enquiry. We'll be in touch shortly to confirm your booking.">
-        <input type="hidden" name="_template" value="table">
+I the hirer (name) agree to the terms and conditions of this contract of Hire with LPZ-JetWashHire. I the hirer accept full responsibility for the safe keeping and fair use of the jetwash during my term of hire delivery to collection.
 
-        <label for="name">Full Name</label>
-        <input type="text" name="name" id="name" required>
+I accept liability and responsibility for any damage to the jetwash, parts and accessories during my hire term. I accept liability and responsibility for any damage caused to any other item whilst the jetwash is in my use or hire term and understand LPZ-JetWashHire cannot be legally or financially held accountable.
 
-        <label for="contact">Contact Number</label>
-        <input type="text" name="contact" id="contact" required>
+I am responsible for the Jetwash in its entirety during my hire term and this includes my decision to allow a 3rd person to use it. This includes damage the 3rd person causes to the hire jetwash itself, attachments or other items, property or vehicles. I am not entitled to further hire or subcontract the jetwash to any other party.
 
-        <label for="email">Email Address</label>
-        <input type="email" name="email" id="email" required>
+I understand that if any part of the hose is damaged I will pay the cost to replace immediately and in full to the hire company LPZ-JetWashHire.
 
-        <label for="home-address">Your Address</label>
-        <textarea name="home-address" id="home-address" required></textarea>
+I understand that if any attachments that are supplied to me are lost, stolen or damaged I will cover the cost of replacement immediately and in full per item to LPZ-JetWashHire.
 
-        <label for="delivery-address">Delivery Address</label>
-        <textarea name="delivery-address" id="delivery-address" required></textarea>
+I accept responsibility to keep the jetwash stored in a safe location to prevent theft and if the jetwash is stolen or lost during my hire term, I am liable for the full cost of the jetwash and predicted financial loss to the business whilst a replacement is sourced.
 
-        <label for="start-date">First Day of Hire</label>
-        <input type="date" name="start-date" id="start-date" required>
+Should I agree to this contract and fail to abide by it, I understand LPZ-JetWashHire have the right to instruct legal advice and proceed to a court hearing to recover finances. I accept the full cost of any legal or court fees LPZ-JetWashHire are invoiced to resolve this matter.
 
-        <label for="end-date">Last Day of Hire</label>
-        <input type="date" name="end-date" id="end-date" required>
+LPZ-JetWashHire maintain the right to cancel a booking at any time if there is reason to suppose a person or business is acting dishonestly, intends to steal, or participate in illegal activity, or does not show sufficient responsibility to abide by this contract. LPZ-JetWashHire can cancel a booking at any stage if they are made aware of a breach of contract, without providing a refund or reason to the hirer.
 
-        <label for="photo-id">Upload Photo ID</label>
-        <input type="file" name="photo-id" id="photo-id" accept="image/*,.pdf" required>
+I agree in full to the terms and conditions of the hire contract with LPZ-JetWashHire.
 
-        <label>
-          <input type="checkbox" name="agreement" required>
-          I have read and agree to the hire contract terms and conditions.
-        </label>
+Name:
+Address:
+Contact Number:
+Photocopy of ID:
+Signature:
+Date of Signature:
+      </pre>
+    </div>
 
-        <label for="signature">Typed Signature</label>
-        <input type="text" name="signature" id="signature" required>
+    <h2>Booking Enquiry</h2>
+    <form action="https://formsubmit.co/LPZ.JETWASH.HIRE@OUTLOOK.COM" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_autoresponse" value="Thank you for your booking enquiry with LPZ-JetWashHire. We have received your request and will get back to you shortly to confirm availability and delivery details.">
 
-        <label for="date-signed">Date of Signature</label>
-        <input type="date" name="date-signed" id="date-signed" required>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="Name" required />
 
-        <button type="submit">Send Booking Enquiry</button>
-      </form>
-    </section>
-  </main>
+      <label for="address">Address</label>
+      <textarea id="address" name="Address" rows="3" required></textarea>
 
-  <footer>
-    <p>Contact: LPZ.JETWASH.HIRE@OUTLOOK.COM</p>
-  </footer>
+      <label for="contact">Contact Number</label>
+      <input type="tel" id="contact" name="Contact Number" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="Email" required />
+
+      <label for="start">Start Date of Hire</label>
+      <input type="date" id="start" name="Start Date" required />
+
+      <label for="end">End Date of Hire</label>
+      <input type="date" id="end" name="End Date" required />
+
+      <label for="code">Discount Code (if any)</label>
+      <input type="text" id="code" name="Discount Code" />
+
+      <label>
+        <input type="checkbox" name="Agreement" required />
+        I have read and agree to the terms and conditions of the LPZ-JetWashHire contract above.
+      </label>
+
+      <label for="signature">Digital Signature (type your full name)</label>
+      <input type="text" id="signature" name="Digital Signature" required />
+
+      <label for="signdate">Date of Signature</label>
+      <input type="date" id="signdate" name="Signature Date" required />
+
+      <label for="idupload">Upload Photo ID</label>
+      <input type="file" id="idupload" name="Photo ID" accept=\"image/*,.pdf\" required />
+
+      <button type="submit">Send Booking Request</button>
+    </form>
+  </div>
 </body>
 </html>
