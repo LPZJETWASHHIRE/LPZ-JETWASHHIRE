@@ -5,25 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LPZ-JetWashHire</title>
   <style>
-      .header-image {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 120px;
-  height: auto;
-  border-radius: 8px;
-}
+    .header-image {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 80px;
+      height: auto;
+      border-radius: 8px;
+    }
     body {
       font-family: Arial, sans-serif;
       background: #333;
       margin: 0;
       padding: 0;
+      color: #ccc;
     }
     header {
       background: #333;
       color: white;
       text-align: center;
       padding: 1.5rem;
+      position: relative;
     }
     .container {
       padding: 2rem;
@@ -60,12 +62,13 @@
       border-radius: 5px;
       cursor: pointer;
     }
-    .prices, .contract {
+    .prices, .contract, .bubble {
       background: #fff;
       padding: 1.5rem;
       border-radius: 10px;
       margin-bottom: 2rem;
       box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      color: #000;
     }
     .contract pre {
       white-space: pre-wrap;
@@ -75,31 +78,32 @@
 </head>
 <body>
   <header>
-     <img src="HIREMEJETWASHLPZPHOTO1.png" alt="jetwash" class="header-image">
-    <h1>LPZ-JetWashHire</h1>
-    <p>Petrol Power Jetwash Hire for Bedfordshire and surrounding areas</p>
-    <p>We deliver, you jetwash, we collect</p>
-    <p>Contact: <a href="mailto:LPZ.JETWASH.HIRE@OUTLOOK.COM" style="color: #fff;">LPZ.JETWASH.HIRE@OUTLOOK.COM</a></p>
+    <img src="HIREMEJETWASHLPZPHOTO1.png" alt="jetwash" class="header-image">
+    <div style="padding-right: 100px;">
+      <h1>LPZ-JetWashHire</h1>
+      <p>Petrol Power Jetwash Hire for Bedfordshire and surrounding areas</p>
+      <p>We deliver, you jetwash, we collect</p>
+      <p>Contact: <a href="mailto:LPZ.JETWASH.HIRE@OUTLOOK.COM" style="color: #fff;">LPZ.JETWASH.HIRE@OUTLOOK.COM</a></p>
+    </div>
   </header>
-  <section class="bubble">
-  <h2>Jetwash Features</h2>
-    <ul>
-  <p>
-    <li>• 6.5HP Four-Stroke Petrol Engine (unleaded)</li>
-    <li>• Max 2900psi Power for Serious Cleaning</li>
-    <li>• 8m Reinforced Hose for Maximum Reach</li>
-    <li>• 5 Spray Nozzles for Versatile Cleaning</li>
-    <li>• 3.6L Petrol Tank for Longer Use</li>
-    <li>• Low Water Usage – Just 9.5 litres per minute flow rate (less than a garden hose!)</li>
-    <li><strong>• ADD FUEL, CONNECT WATER SUPPLY AND GO JET WASH</strong></li>
-  </p>
-    </ul>
-</section>
 
-<section class=bubble>
-  <h2>What Can A Petrol Power Jetwash Clean and Sparkle?</h2>
-  <p>Patios, Driveways, Pathways, BBQs, Cars, Motorbikes, Vans, HGVs, Coaches, Buses, Swimming Pools, Hot tubs, Tiles, Metal Structure Rust, Garage/House Doors and Windows, Dustbins, Cycles, Motorhomes, Caravans, Roadways, Drain Covers, Shipping Containers, Boats, Kayaks, Marine Equipment, Plant Equipment, Fairground Rides, Outdoor Furniture, Industrial Sites and Commercial Business Grounds, Skips, Outdoor Lights and Security Cameras, Solar Panels, Gates, Concrete Posts, Static Caravans, Water Slides, Children's Outdoor Park Equipment, Aviation Equipment, Light Aircraft and Gliders, Trailers, Gritters, Water Features and Pond Surrounds, Subways, Rail Network Equipment and Carriages, Garden Ornaments.</p>
-</section>
+  <section class="bubble">
+    <h2>Jetwash Features</h2>
+    <ul>
+      <li>• 6.5HP Four-Stroke Petrol Engine (unleaded)</li>
+      <li>• Max 2900psi Power for Serious Cleaning</li>
+      <li>• 8m Reinforced Hose for Maximum Reach</li>
+      <li>• 5 Spray Nozzles for Versatile Cleaning</li>
+      <li>• 3.6L Petrol Tank for Longer Use</li>
+      <li>• Low Water Usage – Just 9.5 litres per minute flow rate (less than a garden hose!)</li>
+      <li><strong>• ADD FUEL, CONNECT WATER SUPPLY AND GO JET WASH</strong></li>
+    </ul>
+  </section>
+
+  <section class="bubble">
+    <h2>What Can A Petrol Power Jetwash Clean and Sparkle?</h2>
+    <p>Patios, Driveways, Pathways, BBQs, Cars, Motorbikes, Vans, HGVs, Coaches, Buses, Swimming Pools, Hot tubs, Tiles, Metal Structure Rust, Garage/House Doors and Windows, Dustbins, Cycles, Motorhomes, Caravans, Roadways, Drain Covers, Shipping Containers, Boats, Kayaks, Marine Equipment, Plant Equipment, Fairground Rides, Outdoor Furniture, Industrial Sites and Commercial Business Grounds, Skips, Outdoor Lights and Security Cameras, Solar Panels, Gates, Concrete Posts, Static Caravans, Water Slides, Children's Outdoor Park Equipment, Aviation Equipment, Light Aircraft and Gliders, Trailers, Gritters, Water Features and Pond Surrounds, Subways, Rail Network Equipment and Carriages, Garden Ornaments.</p>
+  </section>
 
   <div class="container">
     <div class="prices">
@@ -154,17 +158,15 @@
       <input type="date" id="signdate" name="Signature Date" required />
 
       <label for="idupload">Upload Photo ID</label>
-      <input type="file" id="idupload" name="Photo ID" accept=\"image/*,.pdf\" required />
+      <input type="file" id="idupload" name="Photo ID" accept="image/*,.pdf" required />
 
       <button type="submit">Send Booking Request</button>
     </form>
   </div>
-  
-</body>
-   <div class="contract">
-      <h2>Hire Contract</h2>
-      <pre>
 
+  <div class="contract">
+    <h2>Hire Contract</h2>
+    <pre>
 I the hirer agree to the terms and conditions of this contract of Hire with LPZ-JetWashHire. I the hirer accept full responsibility for the safe keeping and fair use of the jetwash during my term of hire.
 
 I accept liability and responsibility for any damage to the jetwash, parts and accessories during my hire term. I accept liability and responsibility for any damage caused to any other item whilst the jetwash is in my use or hire term and understand LPZ-JetWashHire cannot be legally or financially held accountable.
@@ -181,7 +183,8 @@ Should I agree to this contract and fail to abide by it, I understand LPZ-JetWas
 
 LPZ-JetWashHire maintain the right to cancel a booking at any time if there is reason to suppose/believe a person or business is acting dishonestly, commiting fraud or intends to steal the Hire item(s). LPZ-JetWashHire can cancel a booking at any time if they are made aware of a breach of contract, without providing a refund to the hirer.
 
-I agree by signing the contract to the full terms and conditions of the hire contract with LPZ-JetWashHire and understand its purpose is to protect the buisness against theft, damage, liability or financial loss. 
-      </pre>
-    </div>
+I agree by signing the contract to the full terms and conditions of the hire contract with LPZ-JetWashHire and understand its purpose is to protect the buisness against theft, damage, liability or financial loss.
+    </pre>
+  </div>
+</body>
 </html>
