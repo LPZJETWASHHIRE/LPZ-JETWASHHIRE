@@ -90,7 +90,16 @@
       white-space: pre-wrap;
       font-family: inherit;
     }
+@media (max-width: 600px) {
+  .logo-left, .logo-right {
+    width: 50px; /* shrink logos smaller */
+    top: 5px; /* move them down a little */
+  }
 
+  header h1 {
+    font-size: 1.5rem; /* also shrink the header text a bit for mobile */
+  }
+}
   </style>
 </head>
 <body>
